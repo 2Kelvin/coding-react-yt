@@ -1,6 +1,7 @@
 const Header = () => {
     const headerCSS = {
-        fontSize: "48px",
+        // use camelCasing style for the CSS style properties; do not use a "-"
+        fontSize: "48px"
     };
 
     return (
