@@ -1,13 +1,12 @@
-import React from 'react'
-
 const Footer = () => {
     const today = new Date();
     return (
-        <h6>
-            <p style={{color:"orange", fontWeight:"bold"}}>
+        <footer>
+            <p>
                 Copyright &copy; {today.getFullYear()}
+                {/* style={{color:"orange", fontWeight:"bold"}} ->> example of in-line styling I had used in the <> tag above */}
             </p>
-        </h6>
+        </footer>
     );
 }
 
